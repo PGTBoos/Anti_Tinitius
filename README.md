@@ -5,7 +5,8 @@ This innovative approach combines custom audio processing with relaxation techni
 While developed through personal experience, it's now shared freely to help others find relief.
 
 ## Table of Contents
-[[_TOC_]]
+
+[[_TOC_]] 
 
 ## Overview
 
