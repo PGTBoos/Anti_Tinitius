@@ -69,7 +69,7 @@ Share your successful modifications by creating a "thanks" issue with your setti
 
 ## Future Development
 
-More filters and approaches are in the pipeline! Show your support by starring the repository, and we'll keep innovating.
+More filters and approaches are in the pipeline! Show your support by starring the repository, and I keep innovating.
 
 ## Medical Disclaimer
 
