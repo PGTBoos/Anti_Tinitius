@@ -1,0 +1,12 @@
+I recomend to minimally have something akin to my system below. 
+
+
+Python: 3.11.6 (tags/v3.11.6:8b6ee5b, Oct  2 2023, 14:57:12) [MSC v.1935 64 bit (AMD64)]
+OS: Windows-10-10.0.22631-SP0
+NumPy: 1.26.2
+Librosa: 0.10.2.post1
+SoundFile: 0.12.1
+SciPy: 1.14.1
+
+
+something to execute the code like vscode or a online jupyter notebook 
