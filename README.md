@@ -5,8 +5,20 @@ This innovative approach combines custom audio processing with relaxation techni
 While developed through personal experience, it's now shared freely to help others find relief.
 
 ## Table of Contents
-
-[[_TOC_]] 
+1. [Overview](#overview)
+2. [How It Works](#how-it-works)
+3. [Getting Started](#getting-started)
+4. [The Recipe for Success](#the-recipe-for-success)
+   - [Bandfilter-4: The Ladder Technique](#bandfilter-4-the-ladder-technique)
+   - [Bandfilter-5: The Comprehensive Approach](#bandfilter-5-the-comprehensive-approach)
+5. [Customization](#customization)
+6. [Future Development](#future-development)
+7. [Medical Disclaimer](#medical-disclaimer)
+8. [Support the Project](#support-the-project)
+9. [Why It's Free](#why-its-free)
+10. [Professional Contact](#professional-contact)
+    - [For Medical Professionals](#for-medical-professionals)
+    - [For Medical Device Suppliers](#for-medical-device-suppliers)
 
 ## Overview
 
