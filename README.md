@@ -105,6 +105,9 @@ I guess I will donate it to something good.
 1. To help as many people as possible find relief from tinnitus.
 2. To contribute to open-source healthcare solutions.
 3. To honor those who struggle daily with tinnitus.
+4. My goal is to help, I don't want to get rich from other people's diseases
+   I know some medical industries do this, a white mafia (medical patents etc) but I'm not such a guy.
+   I prefer making the world a better place.
 
 ## Professional Contact
 
