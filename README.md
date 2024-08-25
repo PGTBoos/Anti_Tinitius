@@ -45,9 +45,16 @@ The effects are subtle yet potentially powerful, targeting the complex auditory 
 
 What worked for me, and might work for you:
 
-1. Just before sleep, listen to your chosen song processed with `bandfilter-4` three times.
-2. Finish with one playthrough using `bandfilter-5`.
+1. Just before sleep, listen to your chosen song processed with `bandfilter-4` three times (minimal).
+2. Finish with one playthrough using the same song with `bandfilter-5` its effects are different, the brain will notice it.
+  And although it will be the same song it sounds is different, at an unconscious level the brain will notice this.
+  At digital data level, the same sound will be quite different, but at the conscious level, they sound identical.
+  (akin to how different people can call you by name, you respond the same, but you process sound adjusting to who speaks to you).
 3. Go to sleep and notice potential effects upon waking.
+**PS its better to use headphones the ones you got with your mobile or so, doesn't need to be super special.**
+Try it for a week or so, Tinitius may become less or with some luck even disappear, you get your life back.
+Though I strongly advice not to go again in loud environments, it may come back.
+Also lowering the caffeine intake helps a bit that just my personal experience,  but I like coffee as well.
 
 ### Bandfilter-4: The Ladder Technique
 - Applies short, alternating left/right beeps followed by frequency-specific filters.
@@ -76,20 +83,22 @@ More filters and approaches are in the pipeline! Show your support by starring t
 This project is born from personal success and a desire to help others.
 It's not a substitute for professional medical advice, it can be an addition to it.  
 Always consult with a healthcare provider about your tinnitus (as maybe you need antibiotics for an ear infection or so).  
-You can discuss with him this software, it won't cost you a dimm.  
+You can discuss with him this software, it won't cost you a dime.  
 This code applies audio filters and is not known to pose any risks, but individual responses and results may vary.  
-Essentially though i think retraining the brain reaction is what this code does.  
+Essentially though I think retraining the brain reaction is what this code does.  
 
 ## Support the Project
 
 This project is free because healthcare should be accessible.    
 However, if you've found relief and want to support future development or express your thankfulness   
-Donations are appreciated  :
+Donations are appreciated, but it's fine if you want to use it for free as well, you decide  :
 
 > IBAN: NL25 RABO 0149 4838 80  
 > Bank: RABO BANK  
 > Account Holder: P.G.T. Boos  
 > Please include "Tinnitus Tool Donation" in the transfer description.  
+
+I guess I will donate it to something good.
 
 ## Why It's Free
 
