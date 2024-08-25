@@ -73,21 +73,23 @@ More filters and approaches are in the pipeline! Show your support by starring t
 
 ## Medical Disclaimer
 
-While this project is born from personal success and a desire to help others.
-Ir's not a substitute for professional medical advice.  
-Always consult with a healthcare provider about your tinnitus.  
-You can discuss with him this software, it wont cost you a dimm.  
+This project is born from personal success and a desire to help others.
+It's not a substitute for professional medical advice, it can be an addition to it.  
+Always consult with a healthcare provider about your tinnitus (as maybe you need antibiotics for an ear infection or so).  
+You can discuss with him this software, it won't cost you a dimm.  
 This code applies audio filters and is not known to pose any risks, but individual responses and results may vary.  
 Essentially though i think retraining the brain reaction is what this code does.  
 
 ## Support the Project
 
-This project is free because healthcare should be accessible. However, if you've found relief and want to support future development, donations are appreciated:
+This project is free because healthcare should be accessible.    
+However, if you've found relief and want to support future development or express your thankfulness   
+Donations are appreciated  :
 
-> IBAN: NL25 RABO 0149 4838 80
-> Bank: RABO BANK
-> Account Holder: P.G.T. Boos
-> Please include "Tinnitus Tool Donation" in the transfer description.
+> IBAN: NL25 RABO 0149 4838 80  
+> Bank: RABO BANK  
+> Account Holder: P.G.T. Boos  
+> Please include "Tinnitus Tool Donation" in the transfer description.  
 
 ## Why It's Free
 
