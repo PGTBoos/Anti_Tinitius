@@ -1,8 +1,13 @@
 # ladder filter based upon new structurals, accepts audio in and has an raw audio out
 
+# the code below needs to be reviewed (2024-08-29)
+
 import json
 import numpy as np
 from scipy.signal import iirnotch, filtfilt
+
+
+
 
 class TinnitusFilter:
     def __init__(self, config_file):
@@ -11,6 +16,84 @@ class TinnitusFilter:
         self.raw_in = None
         self.raw_out = None
         self.sample_rate = None
+
+    def generate_alternating_stereo_beep(self, freq, duration, sample_rate, left_channel):
+        t = np.linspace(0, duration, int(sample_rate * duration), False)
+        beep = np.sin(2 * np.pi * freq * t)
+        stereo_beep = np.zeros((2, len(beep)))
+        if left_channel:
+            stereo_beep[0] = beep
+        else:
+            stereo_beep[1] = beep
+        return stereo_beep
+
+    def process_audio(self, audio_data, sample_rate):
+        self.raw_in = audio_data
+        self.sample_rate = sample_rate
+        
+        start_freq = self.config["parameters"]["start_freq"]["default"]
+        end_freq = self.config["parameters"]["end_freq"]["default"]
+        bandwidth = self.config["parameters"]["bandwidth"]["default"]
+        step_duration = self.config["parameters"]["step_duration"]["default"]
+        beep_duration = self.config["parameters"]["beep_duration"]["default"]
+        q_factor = self.config["parameters"]["q_factor"]["default"]
+        filter_mix_ratio = self.config["parameters"]["filter_mix_ratio"]["default"]
+        beep_mix_ratio = self.config["parameters"]["beep_mix_ratio"]["default"]
+
+        num_steps = int((end_freq - start_freq) / bandwidth)
+        total_duration = audio_data.shape[1] / sample_rate
+        step_samples = int(step_duration * sample_rate)
+        beep_samples = int(beep_duration * sample_rate)
+
+        filtered_audio = np.zeros_like(audio_data)
+        beep_audio = np.zeros_like(audio_data)
+
+        for i in range(num_steps):
+            freq = start_freq + i * bandwidth
+            start_sample = i * step_samples
+            end_sample = min((i + 1) * step_samples, audio_data.shape[1])
+
+            # Apply notch filter
+            filtered_chunk = self.apply_notch_filter(audio_data[:, start_sample:end_sample], freq, q_factor, sample_rate)
+            filtered_audio[:, start_sample:end_sample] = filtered_chunk
+
+            # Generate and add alternating stereo beep
+            beep = self.generate_alternating_stereo_beep(freq, beep_duration, sample_rate, i % 2 == 0)
+            beep_start = start_sample
+            beep_end = min(beep_start + beep_samples, audio_data.shape[1])
+            beep_audio[:, beep_start:beep_end] += beep[:, :beep_end-beep_start]
+
+        # Mix original, filtered, and beep audio
+        self.raw_out = (1 - filter_mix_ratio - beep_mix_ratio) * audio_data + \
+                       filter_mix_ratio * filtered_audio + \
+                       beep_mix_ratio * beep_audio
+
+        return self.raw_out
+
+    def get_info(self, language="en"):
+        info = {
+            "name": self.config["name"],
+            "description": self.config["description"],
+            "parameters": {}
+        }
+        for param, details in self.config["parameters"].items():
+            info["parameters"][param] = {
+                "value": details["default"],
+                "description": details["description"][language]
+            }
+        return info
+
+    def set_language(self, language):
+        if language not in ["en", "nl"]:
+            raise ValueError(f"Unsupported language: {language}")
+        self.language = language
+
+    def get_parameter_description(self, param_name):
+        if param_name in self.config["parameters"]:
+            return self.config["parameters"][param_name]["description"][self.language]
+        else:
+            raise ValueError(f"Invalid parameter name: {param_name}")
+
 
     def load_config(self):
         try:
@@ -49,18 +132,7 @@ class TinnitusFilter:
         filtered_data = filtfilt(b, a, data)
         return filtered_data
 
-    def generate_alternating_stereo_beep(self, freq, duration, sample_rate, left_channel):
-        t = np.linspace(0, duration, int(sample_rate * duration), False)
-        beep = np.sin(2 * np.pi * freq * t)
-        stereo_beep = np.zeros((len(beep), 2))
-        if left_channel:
-            stereo_beep[:, 0] = beep  # Left channel
-            print(f"Beep at {freq:.0f} Hz in Left channel")
-        else:
-            stereo_beep[:, 1] = beep  # Right channel
-            print(f"Beep at {freq:.0f} Hz in Right channel")
-        return stereo_beep
-
+  
     def execute(self):
         try:
             data = self.raw_in
