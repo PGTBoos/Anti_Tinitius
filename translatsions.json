@@ -1,0 +1,43 @@
+{
+    "supported_languages": ["en", "nl"],
+    "name": {
+        "en": "Tinnitus Filter",
+        "nl": "Tinnitus Filter"
+    },
+    "description": {
+        "en": "Applies a ladder notch filter with alternating stereo beeps to an audio file.",
+        "nl": "Past een ladder notch filter toe met afwisselende stereo piepjes op een audiobestand."
+    },
+    "start_freq_description": {
+        "en": "Starting frequency of the ladder filter",
+        "nl": "Startfrequentie van de ladder filter"
+    },
+    "end_freq_description": {
+        "en": "Ending frequency of the ladder filter",
+        "nl": "Eindfrequentie van de ladder filter"
+    },
+    "bandwidth_description": {
+        "en": "Bandwidth of each notch filter",
+        "nl": "Bandbreedte van elk notch filter"
+    },
+    "step_duration_description": {
+        "en": "Duration of each frequency step",
+        "nl": "Duur van elke frequentiestap"
+    },
+    "beep_duration_description": {
+        "en": "Duration of the stereo beep",
+        "nl": "Duur van de stereo piep"
+    },
+    "q_factor_description": {
+        "en": "Quality factor of the notch filter",
+        "nl": "Kwaliteitsfactor van het notch filter"
+    },
+    "filter_mix_ratio_description": {
+        "en": "Mixing ratio for the filtered audio",
+        "nl": "Mixverhouding voor de gefilterde audio"
+    },
+    "beep_mix_ratio_description": {
+        "en": "Mixing ratio for the stereo beep",
+        "nl": "Mixverhouding voor de stereo piep"
+    }
+}
