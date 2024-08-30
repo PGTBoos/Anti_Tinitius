@@ -1,0 +1,10 @@
+{
+    "start_freq": 8996,
+    "end_freq": 11000,
+    "bandwidth": 500,
+    "step_duration": 0.1,
+    "beep_duration": 0.01,
+    "q_factor": 30,
+    "filter_mix_ratio": 0.1,
+    "beep_mix_ratio": 0.4
+}
