@@ -1,22 +1,20 @@
-Modified MIT License
+MIT License
 
 Copyright (c) 2024 PGTBoos
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, and distribute the Software, and to permit 
-persons to whom the Software is furnished to do so, subject to the following conditions:
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-1. The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-2. The Software may not be used for commercial purposes without explicit written 
-permission from the copyright holder. 
-(it's just that I don't want to drive up people's medical costs).
-
-3. Any modifications or derivative works based on this Software must be released 
-under the same license terms as this Software.
+2. Commercial use of the Software requires explicit written permission from
+the copyright holder. To request permission, please submit a "Commercial License Request" 
+via GitHub issues at [repository link].
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -25,3 +23,14 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Medical Notice 
+This software creates altered audio, it's not that loud audio helps better.
+The use of this software is at your own risk, it helped me but i cannot guarantee for others.
+I though have no profit goals, my only goal is to help others like me.
+I hope doctors/hospitals/patients take this free software give it a try.
+The effects are mostly the next day, and some time thereafter.
+This time after varies per person, from days to weeks.
+As a developer understanding the problem solving didn't require any medical refs.
+some people are highly technical, and help others for free.
+I hope you have a rgeat time dont let tinitius spoil your life!
