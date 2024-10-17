@@ -1,5 +1,5 @@
 ---
-name: Custom issue ommercial_license_request.md
+name: Commercial License Request
 about: Describe this issue template's purpose here.
 title: ''
 labels: ''
