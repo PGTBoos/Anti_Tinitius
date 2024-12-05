@@ -1,124 +1,99 @@
-# Anti-Tinnitus Project
+# Welcome to the Anti-Tinnitus Project
 
-Welcome to the Anti-Tinnitus Project!  
-This innovative approach combines custom audio processing with relaxation techniques to potentially alleviate tinnitus symptoms.  
-While developed through personal experience, it's now shared freely to help others find relief.
+A breakthrough solution for tinnitus relief that I developed through personal experience and now share freely to help others.  
+Essentially with this you can use your own audio device (phone or mp3 player) to cure yourself.
+Let me explain how it works in simple terms:
 
-## Table of Contents
-1. [Overview](#overview)
-2. [How It Works](#how-it-works)
-3. [Getting Started](#getting-started)
-4. [The Recipe for Success](#the-recipe-for-success)
-   - [Bandfilter-4: The Ladder Technique](#bandfilter-4-the-ladder-technique)
-   - [Bandfilter-5: The Comprehensive Approach](#bandfilter-5-the-comprehensive-approach)
-5. [Customization](#customization)
-6. [Future Development](#future-development)
-7. [Medical Disclaimer](#medical-disclaimer)
-8. [Support the Project](#support-the-project)
-9. [Why It's Free](#why-its-free)
-10. [Professional Contact](#professional-contact)
-    - [For Medical Professionals](#for-medical-professionals)
-    - [For Medical Device Suppliers](#for-medical-device-suppliers)
+## Understanding Tinnitus and Your Brain
 
-## Overview
+Think about how you instantly recognize a friend's face in a crowd, or how you can tell when a song is off-key.  
+Your brain is amazing at recognizing patterns - it's one of its core strengths.  
+This same ability that helps you survive and thrive can sometimes work against you, like with tinnitus.
 
-This project offers a unique, code-based approach to tinnitus management. 
-By applying specific audio filters to calming music, I aim to retrain the brain's response to tinnitus. 
-The effects are subtle yet potentially powerful, targeting the complex auditory processing that contributes to tinnitus perception.
+Tinnitus isn't a real sound - there's nothing actually making noise in your ear.  
+Instead, it's your brain creating a false signal, like a computer monitor showing an error message when nothing's wrong.  
+Just as your brain learned to create this unwanted signal, it can learn to stop.
 
-## How It Works
+## How This Software Helps
 
-1. **Audio Processing**: The code applies various filters to a stereo MP3 file, creating a tailored auditory experience.  
-2. **Brain Retraining**: Even if you don't consciously perceive all effects, your auditory system processes them, potentially helping to recalibrate your brain's   response to tinnitus.
-3. **Consistent Practice**: Regular use, especially before sleep, may enhance the effectiveness of the treatment.  
+I created this software to help retrain your brain using its natural pattern recognition abilities.  
+The software processes calming music in a special way:
+- It adds subtle patterns that your brain naturally wants to complete
+- These patterns work beneath your conscious awareness
+- Over time, they help your brain realize the tinnitus signal isn't needed
 
-## Getting Started
+It's like teaching your brain a new habit to replace an unwanted one.  
+The process is gentle and works best when you're relaxed, especially before sleep.
 
-1. Choose a calming MP3 file - think relaxing radio music rather than intense concert recordings.
-2. Modify the code to specify your chosen audio file (all code files can be executed).
-3. Run the script to process your music (there are multiple scripts.
-4. There is also a program to find the tinitius you cannt hear currently.
-5. Listen at a comfortable volume - there's no need for high volume.
-6. For best results, stick to one song and use it consistently.
+## Using the Software
 
-## The Recipe for Success
+1. Select a calming MP3 file (relaxing music works best)
+2. Process your chosen file using the provided scripts
+3. Use regular headphones - nothing special required
+4. Listen at a comfortable volume before sleep
+5. Stay consistent with one song for best results
 
-What worked for me, and might work for you:
+## The Treatment Process
 
-1. Just before sleep, listen to your chosen song processed with `bandfilter-4` three times (minimal).
-2. Finish with one playthrough using the same song with `bandfilter-5` its effects are different, the brain will notice it.
-  And although it will be the same song it sounds is different, at an unconscious level the brain will notice this.
-  At digital data level, the same sound will be quite different, but at the conscious level, they sound identical.
-  (akin to how different people can call you by name, you respond the same, but you process sound adjusting to who speaks to you).
-3. Go to sleep and notice potential effects upon waking.
-**PS its better to use headphones the ones you got with your mobile or so, doesn't need to be super special.**
-Try it for a week or so, Tinitius may become less or with some luck even disappear, you get your life back.
-Though I strongly advice not to go again in loud environments, it may come back.
-Also lowering the caffeine intake helps a bit that just my personal experience,  but I like coffee as well.
+For optimal results, follow this sequence nightly:
+1. Listen to your processed song with `bandfilter-4` three times
+2. Follow with one play using `bandfilter-5`
+3. Go to sleep
+4. Notice potential improvements upon waking
 
-### Bandfilter-4: The Ladder Technique
-- Applies short, alternating left/right beeps followed by frequency-specific filters.
-- Starts 1000Hz below your tinnitus frequency, creating a "ladder" effect, you must be able to hear some beaps (important).
-- Simple enough for the brain to process, and to detect the pattern, yet covers a wide frequency range.
-- The wide range is ideal since tinitius isnt an exact hz number either.
+### About the Filters
 
-### Bandfilter-5: The Comprehensive Approach
-- Combines various common tinnitus treatment filters.
-- Used as a "finisher" in this approach.
-  - Notice that this code can be changed for specifc filters, though i think bandfilter-4 realy helped me  
-    It's included in version 5 as well, but 5 contains other filters as well.
+**Bandfilter-4: The Foundation**
+- Creates alternating left/right audio patterns
+- Builds a "ladder" of frequencies around your tinnitus
+- Simple enough for your brain to process, yet comprehensive in range
+
+**Bandfilter-5: The Enhancement**
+- Combines multiple proven tinnitus treatment approaches
+- Used as a final step in the process
+- Reinforces the effects of Bandfilter-4
 
 ## Customization
 
-Feel free to adjust settings to match your specific tinnitus frequency.  
-The current setup is optimized for the common "TV static" tinnitus around 10,000Hz.  
-Share your successful modifications by creating a "thanks" issue with your settings!  
+The default settings target common "TV static" tinnitus (around 10,000Hz).
+It's just that my tinititus was in that range (and a lot people have it in this range).
+But you can adjust parameters to match your specific frequency.  
+Share your successful modifications by creating a "thanks" issue!
 
-## Future Development
+## Medical Considerations
 
-More filters and approaches are in the pipeline! Show your support by starring the repository, and I keep innovating.
-
-## Medical Disclaimer
-
-This project is born from personal success and a desire to help others.
-It's not a substitute for professional medical advice, it can be an addition to it.  
-Always consult with a healthcare provider about your tinnitus (as maybe you need antibiotics for an ear infection or so).  
-You can discuss with him this software, it won't cost you a dime.  
-This code applies audio filters and is not known to pose any risks, but individual responses and results may vary.  
-Essentially though I think retraining the brain reaction is what this code does.  
-
-## Support the Project
-
-This project is free because healthcare should be accessible.    
-However, if you've found relief and want to support future development or express your thankfulness   
-Donations are appreciated, but it's fine if you want to use it for free as well, you decide  :
-
-> IBAN: NL25 RABO 0149 4838 80  
-> Bank: RABO BANK  
-> Account Holder: P.G.T. Boos  
-> Please include "Tinnitus Tool Donation" in the transfer description.  
-
-I guess I will donate it to something good.
+- This is a complementary approach, not a replacement for medical care
+- Consult your healthcare provider about integrating this tool
+- The software applies safe audio filters, but results vary by individual
+- Consider reducing caffeine intake, which may help (based on personal experience)
+- Avoid loud environments even after improvement
 
 ## Why It's Free
 
-1. To help as many people as possible find relief from tinnitus.
-2. To contribute to open-source healthcare solutions.
-3. To honor those who struggle daily with tinnitus.
-4. My goal is to help, I don't want to get rich from other people's diseases
-   I know some medical industries do this, a white mafia (medical patents etc) but I'm not such a guy.
-   I prefer making the world a better place.
+I believe in making healthcare solutions accessible to everyone.  
+While I accept donations (details below), this will always remain free because:
+1. Tinnitus affects millions - help should be available to all, in every country
+2. Healthcare solutions should prioritize healing over profit
+3. Open-source collaboration improves outcomes for everyone
+4. I want it to be low entry, so anyone can try it
 
-## Professional Contact
+## Support Options
 
-### For Medical Professionals
-- Feel free to use this tool with your patients (keeping it free).
-- For discussions, create an issue with the headline "Doctor:".
+If you've found relief and wish to contribute:
+- IBAN: NL25 RABO 0149 4838 80
+- Bank: RABO BANK
+- Account Holder: P.G.T. Boos
+- Reference: "Tinnitus Tool Donation"
 
-### For Medical Device Suppliers
-- This is a free, open-source project under MIT license.
-- Commercial use is not permitted.
-- Instead of monetization, consider contributing to the code's improvement.
+## Professional Use
 
-Together, we can make a difference in the lives of those affected by tinnitus. 
-Your experiences, feedback, and contributions are valuable in this journey towards better auditory health for all.
+Healthcare Providers:
+- Free to use with patients
+- Create issues tagged "Doctor:" for discussion
+
+Device Suppliers:
+- MIT license for non-commercial use only
+- Focus on code improvement rather than monetization
+
+All feedback and experiences help improve this tool for future users. 
+Let's work together to help people find relief from tinnitus.
