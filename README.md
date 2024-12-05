@@ -1,7 +1,7 @@
 # Welcome to the Anti-Tinnitus Project
 
-A breakthrough solution for tinnitus relief that I developed through personal experience and now share freely to help others.  
-Essentially with this you can use your own audio device (phone or mp3 player) to cure yourself.
+A breakthrough solution for tinnitus relief that I developed through personal experience and now share freely to help others.   
+Essentially with this you can use your own audio device (phone or mp3 player) to cure yourself.  
 Let me explain how it works in simple terms:
 
 ## Understanding Tinnitus and Your Brain
@@ -55,10 +55,10 @@ For optimal results, follow this sequence nightly:
 
 ## Customization
 
-The default settings target common "TV static" tinnitus (around 10,000Hz).
-It's just that my tinititus was in that range (and a lot people have it in this range).
-But you can adjust parameters to match your specific frequency.  
-Share your successful modifications by creating a "thanks" issue!
+The default settings target common "TV static" tinnitus (around 10,000Hz).  
+It's just that my tinititus was in that range (and a lot people have it in this range).  
+But you can adjust parameters to match your specific frequency.    
+Share your successful modifications by creating a "thanks" issue!  
 
 ## Medical Considerations
 
@@ -70,9 +70,9 @@ Share your successful modifications by creating a "thanks" issue!
 
 ## Why It's Free
 
-I believe in making healthcare solutions accessible to everyone.  
-While I accept donations (details below), this will always remain free because:
-1. Tinnitus affects millions - help should be available to all, in every country
+I believe in making healthcare solutions accessible to everyone.   
+While I accept donations (details below), this will always remain free because:  
+1. Tinnitus affects millions - help should be available to all, in every country  
 2. Healthcare solutions should prioritize healing over profit
 3. Open-source collaboration improves outcomes for everyone
 4. I want it to be low entry, so anyone can try it
