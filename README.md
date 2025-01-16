@@ -79,11 +79,8 @@ While I accept donations (details below), this will always remain free because:
 
 ## Support Options
 
-If you've found relief and wish to contribute:
-- IBAN: NL25 RABO 0149 4838 80
-- Bank: RABO BANK
-- Account Holder: P.G.T. Boos
-- Reference: "Tinnitus Tool Donation"
+-todo
+
 
 ## Professional Use
 
