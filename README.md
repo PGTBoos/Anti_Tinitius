@@ -1,6 +1,7 @@
 # Welcome to the Anti - Tinnitus Project
 
-A breakthrough solution for tinnitus relief that I developed through personal experience and now share freely to help others. Essentially with this you can use your own audio device (phone or mp3 player) to cure yourself.  
+A breakthrough for tinnitus relief that I developed through personal experience and share freely to help others.  
+Essentially with this you can use your own audio device (phone or mp3 player) to cure yourself.  
 Let me explain how it works in simple terms:
 
 ## Understanding Tinnitus and Your Brain
