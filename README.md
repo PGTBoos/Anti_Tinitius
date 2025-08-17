@@ -77,6 +77,19 @@ While I accept donations (details below), this will always remain free because:
 3. Open-source collaboration improves outcomes for everyone
 4. I want it to be low entry, so anyone can try it
 
+## Additional tips
+Try drinking (a lot less) coffee and alcohol, and stop smoking.
+There is a mental loop in between those that keeps people to live on their edge, it may look like to feel in control.
+In reality, you're playing with stress hormones and addictions, not a good base to counter Tinitius.
+Life seems fast and smooth, perhaps, but you're capable of more without it
+For Tinitius, you should not live under stres, train the mind to get free from the pattern and internal noise.
+
+## Disclaimer
+If your also deaf in the tones you have tinitius in, this may not work, you cannt hear this curing method.
+While its isnt not often the case, some people have this condition.
+I believe in this case the same might be achieved with electrode implants in hospital treathment, its not yet so standard though.
+
+
 ## Support Options
 
 -todo
